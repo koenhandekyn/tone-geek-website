@@ -1,0 +1,44 @@
+html
+  head
+    meta[charset="utf-8"]
+    meta[http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"]
+    meta[name="viewport" content="width=device-width, initial-scale=1.0"]
+    meta[name="description" content="#{site_description}"]
+    meta[name="keywords" content="#{site_keywords}"]
+
+    meta[property="og:description" content="A Guest House situated in the heart of Vejer de la Frontera"]
+    meta[property="og:url" content="http://www.Tone-Geek.com"]
+    meta[property="og:image" content=image_url(image_path('top_1m.jpg')) ]
+    meta[property="og:type" content="website"]
+    meta[property="og:site_name" content="Tone-Geek"]
+    / meta[property="article:author" content="Wim Handekyn"]
+    / meta[property="article:publisher" content="koen.hand(c) ekyn@quine.be"]
+
+    meta[content="summary" name="twitter:card"]
+    meta[content="@Tone-Geek" name="twitter:site"]
+    meta[content="A Guest House situated in the heart of Vejer de la Frontera" name="twitter:title"]
+    meta[content="We offer 4 double rooms situated around a lovely patio with lots of cozy corners and a sunny roof terrace. We promise you an unforgettable stay!" name="twitter:description"]
+    meta[content=image_url(image_path('top_1m.jpg')) name="twitter:image"]
+
+    title
+      = page_title
+    /[if lt IE 9]
+      = javascript_include_tag "ie8"
+    = stylesheet_link_tag "default"
+    = partial "partials/analytics"
+
+    link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
+
+    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
+    script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
+    script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"
+
+  body
+    .container-fluid
+      = yield
+      hr
+        p.text-center
+          | (c) 2015
+          =<> link_to "#{site_title}", "/"
+
+    = javascript_include_tag "all"

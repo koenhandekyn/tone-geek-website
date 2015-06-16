@@ -1,0 +1,23 @@
+nav.navbar.navbar-inverse.navbar-fixed-top role="navigation"
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button"
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+
+    .collapse.navbar-collapse.navbar-ex1-collapse
+      ul.nav.navbar-nav.navbar-left
+        li
+          a href="https://plus.google.com/+tone-geek/"
+            i.fa.fa-google-plus-square.fa-lg.fa-inverse
+        li
+          a href="https://www.facebook.com/tone-geek"
+            i.fa.fa-facebook-square.fa-lg.fa-inverse
+
+      ul.nav.navbar-nav.navbar-right
+        li
+          a href="#top" =t('header.top')
+        li
+          a href="#contact" =t('header.contact')

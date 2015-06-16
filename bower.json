@@ -1,0 +1,20 @@
+{
+  "name": "middleman-blog-bootstrap-template",
+  "version": "0.1.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sass-bootstrap": "~3",
+    "jquery": "~2.1",
+    "modernizr": "~2.8",
+    "respond": "",
+    "font-awesome": "~4",
+    "bootstrap-touch-carousel": ""
+  }
+}

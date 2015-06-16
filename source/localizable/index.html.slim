@@ -1,0 +1,24 @@
+= partial "partials/header"
+a.anchor name="top"
+= partial 'partials/top', locals: { v: "" }
+= partial 'partials/intro'
+
+/ .callout-a
+/ a.anchor name="rooms"
+/ = partial 'partials/rooms', locals: { v: "" }
+
+/ .callout-b
+/ = partial 'partials/house', locals: { v: "" }
+
+/ a.anchor name="reservations"
+/ = partial 'partials/prices'
+/ = partial 'partials/contact_form'
+/ / # = partial 'partials/contact_form_source.html.erb'
+
+/ .callout-c
+/ = partial 'partials/vejer', locals: { v: "" }
+
+a.anchor name="contact"
+= partial 'partials/address'
+= partial 'partials/map'
+
