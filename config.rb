@@ -48,7 +48,6 @@ compass_config do |config|
 end
 # end
 
-
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -90,8 +89,8 @@ set :markdown_engine, :redcarpet
 ###
 
 # Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
-activate :i18n, :langs => [:en, :es, :fr, :nl] # , :mount_at_root => false
+activate :automatic_image_sizes
+activate :i18n, :langs => [:en], :mount_at_root => true
 
 # Reload the browser automatically whenever files change
 activate :livereload
@@ -131,7 +130,6 @@ after_configuration do
   end
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
-
 
 ###
 # Target settings
@@ -195,7 +193,7 @@ activate :deploy do |deploy|
 end
 
 set :protocol, "http://"
-set :host, "www.tone-geek.com/"
+set :host, "www.tone-geek.com"
 set :port, 80
 
 helpers do
