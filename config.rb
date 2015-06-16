@@ -90,7 +90,7 @@ set :markdown_engine, :redcarpet
 
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
-activate :i18n, :langs => [:en], :mount_at_root => true
+activate :i18n, :langs => [:en], :mount_at_root => :en
 
 # Reload the browser automatically whenever files change
 activate :livereload
