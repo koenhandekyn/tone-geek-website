@@ -1,109 +1,30 @@
 ---
 en:
   intro:
-    title1: "A COSY ATHMOSPHERE"
+    title1: "A COSY ATMOSPHERE"
     title2: "WITH PERSONAL ATTENTION"
     p1: "VEJERÍSIMO is a Guest House situated in a quiet little street in the heart of the historic center of Vejer de la Frontera. The restaurants, typical bars and places of interest are just a footstep away. Next to the house you will find the old city wall with “La Puerta Cerrada” (Closed Door), one of the 4 old entrances to the village."
     p2: "The centuries-old house has been restored maintaining Moorish features but with a 21th century twist. The house has 4 double rooms situated around a typical patio. It has a lot of cozy corners: read a book next to the patio’s library or enjoy the roof terrace with its long chairs and chill-out corners. We promise you an unforgettable stay!"
   header:
     top: "Top"
-    rooms: "Rooms"
-    reservations: "Info & Reservations"
+    products: "Products"
     contact: "Contact"
-  rooms:
-    title: "ROOMS"
-    intro: "In every room you will find TV, free WIFI, ceiling fans, heating, hair dryer and light therapy. The rooms have an average size of 20 m2 and have lovely vintage decoration."
-    acogedora:
-      a: "Ground floor"
-      b: "Comfortable double bed 160x190cm"
-      c: "Spacious ensuite bathroom"
-    duplex:
-      a: "Room with 2 floors with internal stairway"
-      b: "2 accesses: from the patio and the first floor"
-      c: "Ground floor: spacious bathroom, separate toilet and a cozy seating area"
-      d: "First floor: comfortable double bed 160x190cm"
-    patio:
-      a: "First floor"
-      b: "2 adjustable electric single beds/twin beds 90x200cm"
-      c: "Spacious ensuite bathroom"
-    muralla:
-      a: "First floor"
-      b: "Comfortable double bed 160x190cm"
-      c: "Spacious ensuite bathroom"
-  prices:
-      title: "Prices 2015"
-      low:
-        title: "LOW SEASON € 69"
-      medium:
-        title: "JUNE, JULY, SEPTEMBER € 82"
-      high:
-        title: "AUGUST, SEMANA SANTA € 95"
-      house:
-        title: "RENT THE WHOLE HOUSE - PRICE ON DEMAND"
-      detail: "Single Use: -€ 5 <br/> Breakfast not included"
-      terms: "Terms & Conditions"
-  house:
-    casa:
-      title: "THE HOUSE"
-      description: "Discover the communal areas where you can relax and dream away."
-    estar:
-      title: "KITCHEN/LIVING ROOM"
-      description: "We offer a fully equipped kitchen, dining room, sofa corner with TV and WIFI. There's also free coffe and tea at hand."
-    patio:
-      title: "THE PATIO"
-      description: "The traditional outside patio has a library."
-    azotea:
-      title: "THE ROOF TERRACE"
-      description: "The south facing roof terrace has views on the village, the countryside and the sea. On clear days you can also see Marocco and The Strait of Gibraltar. Choose your favorite corner to enjoy an aperitif and a bite, loose yourself in a book or get energized by the sun."
-    desayuno:
-      title: "BREAKFAST"
-      description: "Within a radius of 300 meters you will find typical bars and patisseries that serve a delicious breakfast at democratic prices (from €1,70). You can also choose to prepare your breakfast in our fully equipped kitchen. In our patio you’ll find a coffee and tea corner."
-  vejer:
-    title1: "VEJER DE LA FRONTERA"
-    title2: "breathe the Andalusian air"
-    title3: ""
-    description: "Vejer de la Frontera is a small hilltop town and has spectacular views to the sea, the mountains, the river and even Africa. Breathe the Andalusian air in this whitewashed village surrounded by a wonderful nature. Its narrow streets take us back in time and evoke ancient Arabic scenarios. Discover picturesque corners, medieval gates, flowered patios and the important craft tradition. The white sanded beaches of El Palmar are only 10 minutes away. <br/><br/>Vejer de la Frontera has recently been proclaimed as the second most beautiful village of Spain by TripAdviser. The village offers you, with its unspoilt character, the real Andalucia. The flamenco for example hasn’t been commercialized yet. Enjoy the authentic flamenco e.g. in the intimate setting of the Peña Flamenca. Vejer also has a high level of gastronomy and the white sanded beaches of El Palmar are only 10 minutes away."
-    resto:
-      title: "GASTRONOMY"
-      description: "You will be surprised by the innovative restaurants with its creative dishes and modern recipes. Discover the typical Andalusian cuisine and the authentic dishes of Vejer. If food is your passion, then you will be more then satisfied."
-    tourism:
-      title: "SPORTS AND ACTIVE TOURISM"
-      description: "Vejer de la Frontera is a great getaway for those looking for outdoor activities. Hiking, biking, climbing, surfing, diving, etc. Enough to feed the restless!"
-    playa:
-      title: "BREATHTAKING BEACHES WITH LOTS OF SUN"
-      description: "The Costa de la Luz (Coast of Light) takes its name from the brilliant white sunlight that reflects on the ocean en the white sanded beaches. It faces the Atlantic Ocean and has endless beaches backed by dunes and pine forests. With an average of over 300 days of sunshine a year you can enjoy Spain’s best beaches all year long."
-      caption1: 'El Palmar (9 km): a huge paradise of fine golden sand'
-      caption2: 'Barbate (10 km): place to be for seafood lovers'
-      caption3: 'Zahora (15 km): breathtaking views on the coast and Cape of Trafalgar'
-      caption4: 'Caños de Meca (19 km): a young relaxed atmosphere with an alternative touch'
-      caption5: ''
-      caption6: ''
-  form:
-    title: "Reservations & Questions"
-    thank_you: Thank you! We'll contact you soon.
-    name: Name
-    email: E-mail
-    telephone: Telephone
-    arrival: Date of arrival
-    nights: Number of nights
-    adults: Adults
-    kids: Kids
-    comments: Comments
-    send: Send
-    date:
-      month:
-        jan: January
-        feb: February
-        mar: March
-        apr: April
-        may: May
-        jun: June
-        jul: July
-        aug: August
-        sep: September
-        oct: October
-        nov: November
-        dec: December
+  products:
+    title: "Products"
+    intro_a: "The Tone-Geek pedals are more than 'just' great sounding pedals. They enable you to store and recall 'analog presets', but when put together they act as one combined pedal." 
+    intro_b: "At Tone-Geek 1 + 1 is so much more than 2!"
+    core:
+      subtitle: "Boost Overdrive Distortion"
+      p1: "This pedal is what got Tone-Geek started. Two effects combined into one pedal providing the solid foundation for your guitar sound."
+      p2: "The first effect is essentially a boost effect. Cranking up the volume will drive your tube amp into that sweet overdrive region that we all love. When used at low volume settings, the drive control can be set to give a mild edge to your tone, all the way to a thick overdrive sound."
+      p3: "The second effect is an overdrive/distortion effect. The gain settng brings you from mild overdrive to a high gain overdrive sound. When the boost button is kicked in the gain is increased further and a distortion sound is created. At full gain with your guitar set to the neck pickup, you even get a fuzz-like tone!"
+      p4: "Both effects can be kicked in independently, like it were 2 separate pedals. The effect order is fixed."
+      p5: "Like all Tone-geek pedals, Core provides 4 presets, allowing you to create 4 independent drive sounds, store them and recall them when you perform!"
+    legacy:
+      subtitle: "Loop in your favorite effects"
+      p1: "At Tone-Geek we believe that creating a great sound means including some of the mindblowing vintage (or why not new) pedals. So we developed a loop pedal that can be integrated in your Tone-geek setup."
+      p2: "Legacy provides two loops allowing you to loop in any pedal you like. The pedal provides 4 presets."
+      p3: "The genuine beauty of the pedal comes when you conbine it with other Tone-Geek pedals, like the Core. In this combination the Tone-Geek pedals will act as one, meaning that the presets you store will not only store the local settings of the pedal, but also the settings of the other Tone-Geek pedals in your rig. Recalling your preset also restores the settings on the other pedals. It is truely like the pedals are unified. Simple and intuitive!"
   footer:
     legal_notice: Legal Notice
 
