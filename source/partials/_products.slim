@@ -1,0 +1,51 @@
+section.white
+  .content
+    h2.text-left =t("products.title")
+
+    p =t("products.intro_a")
+    p =t("products.intro_b")
+
+
+    p &nbsp;
+
+    h2.text-right Core
+    h5.text-right =t("products.core.subtitle")
+    
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-core', \
+      items: ["Core_close.png"], \
+      }
+    ul.text-left
+      li =t("products.core.p1")
+      li =t("products.core.p2")
+    
+    p  
+      .videoWrapper
+        iframe#video_core.center allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/2Pf44fOmYpg" 
+
+    ul.text-left
+      li =t("products.core.p3")
+      li =t("products.core.p4")
+      li =t("products.core.p5")
+
+
+    p &nbsp;
+
+    h2.text-left Legacy
+    h5.text-left =t("products.legacy.subtitle")
+    
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-legacy', \
+      items: ["Legacy_close.png"], \
+      }
+    ul.text-left
+      li =t("products.legacy.p1")
+      li =t("products.legacy.p2")
+    p  
+     .videoWrapper
+      iframe#video_core.center allowfullscreen="" rameborder="0" src="https://www.youtube.com/embed/pH6HrpwzLnM"
+    ul.text-left
+      li =t("products.legacy.p3")
+
+
+
