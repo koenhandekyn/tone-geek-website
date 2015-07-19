@@ -100,8 +100,8 @@ li {
 .img {
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: auto 875px;
-	height: 875px;
+	background-size: auto 400px;
+	height: 400px;
 }
 
 .logo {
@@ -146,9 +146,9 @@ li {
   margin-bottom: 60px;
 }
 
-.carousel#carousel-playas {
-  margin-bottom: 0px;
-}
+// .carousel#carousel-playas {
+  // margin-bottom: 0px;
+// }
 
 
 .carrousel-container {
@@ -173,6 +173,35 @@ li {
   text-align: center;
   left: 50%;
 }
+
+
+// #carousel-top {
+//   // max-height: 400px;
+//   .carrousel-container {
+//     max-height: 400px;
+//     width: auto;
+//     overflow: hidden;
+//     vertical-align: center;
+//     padding-left: auto;
+//     padding-right: auto;
+//     text-align: center;
+//   }
+
+//   .carrousel-container img {
+//     overflow: hidden;
+//     display: block;
+//     margin: auto;
+//     vertical-align: center;
+//     max-height: 400px;
+//     max-width: 100%;
+//     padding-left: auto;
+//     padding-right: auto;
+//     text-align: center;
+//     left: 50%;
+//   }
+// }
+
+
 
 .carousel-control.left, .carousel-control.right {
     background-image: none;
